@@ -1,0 +1,29 @@
+{
+  "name": "dotclear/blog",
+  "description": "Take control over your blog!",
+  "license": "GPL-2.0-only",
+  "authors": [
+    {
+      "name": "Dotclear Team",
+      "email": "dev@dotclear.org"
+    }
+  ],
+  "minimum-stability": "dev",
+  "repositories": [
+    {
+        "url": "https://github.com/JcDenis/dotclear",
+        "type": "git"
+    }
+  ],
+  "require": {
+    "php": ">=8.0.0"
+  },
+  "require-dev": {
+    "dotclear/dotclear": "dev-namespace"
+  },
+  "config": {
+    "bin-dir": "bin/"
+  },
+  "autoload": {
+  }
+}

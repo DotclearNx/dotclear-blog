@@ -1,0 +1,7 @@
+/cache
+/digests
+/public
+/var
+/vendor
+\.htaccess
+dotclear.conf.php

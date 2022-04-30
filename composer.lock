@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "066efdec34c810084bee0d206d434356",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "dotclear/dotclear",
+            "version": "dev-namespace",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JcDenis/dotclear",
+                "reference": "83fc35ce7ca697f8f9db84d7e50638639a3b4b1e"
+            },
+            "require": {
+                "php": ">=8.0.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.8",
+                "phpstan/phpstan": "^1.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dotclear\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Dotclear Team",
+                    "email": "dev@dotclear.org"
+                }
+            ],
+            "description": "Dotclear is an open-source web publishing software.",
+            "time": "2022-04-28T23:32:24+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "dotclear/dotclear": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8.0.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
