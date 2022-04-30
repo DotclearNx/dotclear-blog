@@ -5,3 +5,4 @@
 /vendor
 \.htaccess
 dotclear.conf.php
+composer.lock
