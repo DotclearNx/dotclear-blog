@@ -36,7 +36,7 @@ In order to run Dotclear you need:
 
 Using **Git** and **Composer** in your web directory path :
 
-```shell
+```sh
 mkdir myblog
 git clone https://github.com/JcDenis/dotclear-blog myblog
 cd myblog
@@ -44,6 +44,10 @@ composer install
 ```
 
 Then go to your web url `http://my-domain.com/myblog` and follow dotclear installation process.
+
+Or if you do not have **Git**, just unzip in to your web directory path 
+the lastest release of this repository available at <https://github.com/JcDenis/dotclear-blog/releases>
+then follow previous composer step.
 
 ## License
 

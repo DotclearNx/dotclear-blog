@@ -20,10 +20,5 @@
   },
   "require-dev": {
     "dotclear/dotclear": "dev-namespace"
-  },
-  "config": {
-    "bin-dir": "bin/"
-  },
-  "autoload": {
   }
 }
