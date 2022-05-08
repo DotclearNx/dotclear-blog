@@ -12,9 +12,14 @@ Dotclear project's purpose is to provide a user-friendly
 tool allowing anyone to publish on the web, regardless of
 their technical skills.
 
+# Important
+
+**dotclear-blog** repository and **DotclearNx** are playgrounds
+to experiments differents things to see where dotclear can go in futur.
+
 ## DOCUMENTATION
 
-These files are part of dotclear-blog repository.
+These files are part of **dotclear-blog** repository and there're no help on it.
 
 For more information on Dotclear, see README file at 
 - official repository <https://git.dotclear.org/dotclear/> or 
@@ -34,20 +39,38 @@ In order to run Dotclear you need:
 
 ## INSTALLATION
 
-Using **Git** and **Composer** in your web directory path :
+# Getting dotclear-blog files
 
-```sh
+Using **Git**, clone this repository in your web directory path :
+
+```
 mkdir myblog
-git clone https://github.com/JcDenis/dotclear-blog myblog
+git clone https://github.com/DotclearNx/dotclear-blog myblog
+```
+
+Or simply unzip package available at https://github.com/DotclearNx/dotclear-blog/releases
+
+# Getting Composer components
+
+Once dotclear-blog is copy to your web directory
+
+If you have composer installed on your web server, 
+just move to dotclear-blog directory and run composer install.
+
+```
 cd myblog
 composer install
 ```
 
-Then go to your web url `http://my-domain.com/myblog` and follow dotclear installation process.
+If you don't have composer you can try installing components using setup.
+In web browser go URL `http://my-domain.com/myblog/setup.php`
+This script downloads latest composer.phar and tries to run it.
 
-Or if you do not have **Git**, just unzip in to your web directory path 
-the lastest release of this repository available at <https://github.com/JcDenis/dotclear-blog/releases>
-then follow previous composer step.
+# Finishing dotclear installation
+
+Once previous steps have been done, 
+go to your web URL `http://my-domain.com/myblog` 
+and follow dotclear installation process.
 
 ## License
 
