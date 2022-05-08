@@ -12,7 +12,7 @@ Dotclear project's purpose is to provide a user-friendly
 tool allowing anyone to publish on the web, regardless of
 their technical skills.
 
-# Important
+### Important
 
 **dotclear-blog** repository and **DotclearNx** are playgrounds
 to experiments differents things to see where dotclear can go in futur.
@@ -39,7 +39,7 @@ In order to run Dotclear you need:
 
 ## INSTALLATION
 
-# Getting dotclear-blog files
+### Getting dotclear-blog files
 
 Using **Git**, clone this repository in your web directory path :
 
@@ -50,7 +50,7 @@ git clone https://github.com/DotclearNx/dotclear-blog myblog
 
 Or simply unzip package available at https://github.com/DotclearNx/dotclear-blog/releases
 
-# Getting Composer components
+### Getting Composer components
 
 Once dotclear-blog is copy to your web directory
 
@@ -66,7 +66,7 @@ If you don't have composer you can try installing components using setup.
 In web browser go URL `http://my-domain.com/myblog/setup.php`
 This script downloads latest composer.phar and tries to run it.
 
-# Finishing dotclear installation
+### Finishing dotclear installation
 
 Once previous steps have been done, 
 go to your web URL `http://my-domain.com/myblog` 
