@@ -6,3 +6,4 @@
 \.htaccess
 dotclear.conf.php
 composer.lock
+composer.phar
