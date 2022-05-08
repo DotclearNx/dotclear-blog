@@ -12,6 +12,10 @@
  * @copyright Olivier Meunier & Association Dotclear
  * @copyright GPL-2.0-only
  */
-require implode(DIRECTORY_SEPARATOR, [__DIR__, '..', '..', 'vendor', 'autoload.php']);
+$f = implode(DIRECTORY_SEPARATOR, [__DIR__, '..', '..', 'vendor', 'autoload.php']);
+if (!file_exists($f)) {
+    exit('dotclear-blog requires composer components.')
+}
+require $f;
 
 Dotclear\App::run('install');

@@ -15,6 +15,11 @@
  * @copyright Olivier Meunier & Association Dotclear
  * @copyright GPL-2.0-only
  */
+$f = implode(DIRECTORY_SEPARATOR, [__DIR__, 'vendor', 'autoload.php']);
+if (!file_exists($f)) {
+    exit('dotclear-blog requires composer components.')
+}
+require_once $f;
 
 if (isset($_SERVER['DC_BLOG_ID'])) {
     $blog = $_SERVER['DC_BLOG_ID'];
@@ -23,7 +28,5 @@ if (isset($_SERVER['DC_BLOG_ID'])) {
 } else {
     $blog = 'default';
 }
-
-require_once implode(DIRECTORY_SEPARATOR, [__DIR__, 'vendor', 'autoload.php']);
 
 Dotclear\App::run('public', $blog);
